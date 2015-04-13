@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 
 #:显示(设置)shell变量
 set -e
@@ -18,7 +18,7 @@ then
   }
 else
 	echo "Cloning podsrepertory..."
-	hash git >/dev/null && /usr/bin/env git clone https://github.com/heyuan110/PodsRepertory.git ~/.PodsRepertory || {
+	hash git >/dev/null && /usr/bin/env git clone https://github.com/heivin/PodsRepertory.git ~/.PodsRepertory || {
 	  echo "git not installed"
 	  exit
 	}
