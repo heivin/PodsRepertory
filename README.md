@@ -3,18 +3,19 @@ PodsRepertory
 
 Installation
 
-./INSTALL.sh
 
 
 
-Then u can `pod search VLayoutManager`
 
 Edit your podfile
 
 ~~~
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/heivin/PodsRepertory.git'
 platform :ios,'7.0'
 inhibit_all_warnings!
 pod 'VLayoutManager'
+......
 ~~~
 
 
