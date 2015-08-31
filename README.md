@@ -3,8 +3,7 @@ PodsRepertory
 
 Installation
 
-`curl -L  https://github.com/heivin/PodsRepertory/master/INSTALL | sh`
-
+./INSTALL.sh
 
 
 
